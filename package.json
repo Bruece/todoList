@@ -1,0 +1,26 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "TodoList",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruece/todoList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruece/todoList/issues"
+  },
+  "homepage": "https://github.com/Bruece/todoList#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.9"
+  }
+}
