@@ -18,7 +18,7 @@ app.use(express.static("public"));
 //mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 //mongoose.connect("mongodb+srv://admin-bruce:ktEGHp2yEJ2jYugO@cluster0-brujb.mongodb.net/todolistDB", {useNewUrlParser: true, useUnifiedTopology: true,  useCreateIndex: true });
-mongoose.connect("mongodb+srv://admin-bruce:zyFdVg81tt4YwO3u@cluster0-brujb.mongodb.net/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-bruce:zyFdVg81tt4YwO3u@cluster0-brujb.mongodb.net/todolistDB", {useNewUrlParser: true, useUnifiedTopology: true,});
 
 //mongoose.promise = global.promise;
 
